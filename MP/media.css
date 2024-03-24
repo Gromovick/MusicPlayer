@@ -1,0 +1,60 @@
+/* @import url(./style.css); */
+
+@media (max-width: 440px) {
+  .player-wrapper {
+    width: 100svw;
+    height: 100svh;
+    min-width: 100svw;
+    max-width: 100svw;
+    max-height: 100svh;
+  }
+  .player {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .controls {
+    /* margin-top: auto; */
+  }
+  .title {
+    font-size: 1.5rem;
+    height: fit-content;
+    overflow-wrap: break-word;
+    white-space: wrap;
+    text-wrap: wrap;
+
+    max-width: 100%;
+  }
+
+  .title-wrapper {
+    /* height: 4.5rem; */
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    max-height: 110px;
+    overflow: scroll;
+  }
+  .singer {
+    margin-top: 0px;
+  }
+  .slider-wrapper {
+    margin-top: auto;
+  }
+}
+@media (max-width: 320px) {
+  .img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    aspect-ratio: 1/1;
+    margin: auto;
+  }
+  .main-content{
+    margin-top: 35px;
+  }
+}
